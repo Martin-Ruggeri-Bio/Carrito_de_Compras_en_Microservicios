@@ -82,9 +82,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         # Container
-        #'HOST': 'postgres',
-        # host
-        'HOST': '192.168.100.10',
+        'HOST': 'postgres',
         'PORT': 5432,
     },
     'sqlite': {

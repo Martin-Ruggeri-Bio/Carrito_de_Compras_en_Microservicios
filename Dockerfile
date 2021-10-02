@@ -1,6 +1,4 @@
 FROM python:3.6
-#RUN apt update
-#RUN apt install -y mariadb-client
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /servicio
 WORKDIR /servicio
