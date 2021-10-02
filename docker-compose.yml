@@ -16,7 +16,7 @@ services:
       PGADMIN_DEFAULT_EMAIL: pgadmin4@pgadmin.org
       PGADMIN_DEFAULT_PASSWORD: postgres
     ports:
-      - "8000:80"
+      - "9000:80"
 
   servicio_py:
     build: .
@@ -24,6 +24,6 @@ services:
     volumes:
       - .:/my_app_dir
     ports:
-      - "9000:8000"
+      - "8000:8000"
     depends_on:
       - postgres
